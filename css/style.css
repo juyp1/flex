@@ -1,0 +1,334 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    min-width: 1840px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+.header {
+    height: 2.8rem;
+    background: #1f2229
+}
+
+.header-container {
+    margin: 0 auto;
+    width: 48rem;
+    text-align: center
+}
+
+
+/*
+导航栏
+*/
+
+nav li {
+    display: inline-block;
+    line-height: 2.5rem;
+    padding-left: 3rem;
+    font-size: 0.7rem;
+}
+
+nav li a {
+    color: #92969d;
+}
+
+nav li a:hover {
+    color: #ff9c00;
+}
+
+nav li .active {
+    color: #ff9c00;
+}
+
+nav .logo {
+    float: left;
+    margin-left: -1.75rem;
+}
+
+.banner-main img {
+    width: 100%;
+    margin-top: -1rem;
+}
+
+.aboutme-main .title {
+    text-align: center;
+    padding-top: 1.2rem;
+}
+
+.aboutme-main .title .about {
+    color: #44b6ff;
+    font-weight: 600;
+    padding-right: 0.4rem;
+    font-size: 1.4rem;
+}
+
+.aboutme-main .title .us {
+    color: #7c7c7c;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.aboutme-main .title .smtitle {
+    font-size: 0.7rem;
+    vertical-align: middle;
+    color: #929191;
+}
+
+.aboutme-main .title .hx {
+    color: #929191;
+    font-size: 0.7rem;
+}
+
+.aboutme-main .title .soldtitle {
+    padding-top: 0.7rem;
+    font-size: 0.7rem;
+    padding-bottom: 0.4rem;
+}
+
+.aboutme-main .title .desc {
+    font-size: 0.7rem;
+    width: 38.5rem;
+    margin: 0 auto;
+    color: #666666;
+}
+
+.listbox {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2.8rem;
+}
+
+.listbox .item {
+    /* height: 80px; */
+    /* width: 20%; */
+    background: red;
+    /* border-radius: 55px; */
+    border-radius: 50%;
+    width: 7.25rem;
+    height: 7.25rem;
+    display: inline-block;
+}
+
+.listbox .item.item1 {
+    background: #6d7075;
+    background-image: url('../css/img/sms.png');
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.listbox .item.item2 {
+    background: #6d7075;
+    background-image: url('../css/img/ems.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 1rem;
+}
+
+.listbox .item.item3 {
+    background: #3ab4ff;
+    background-image: url('../css/img/wx.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 1rem;
+}
+
+.listbox .item.item4 {
+    background: #6d7075;
+    background-image: url('../css/img/phone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 1rem;
+}
+
+.labletitle {
+    display: inline-block
+}
+
+.t {
+    display: inline-block;
+}
+
+.t .desc1 {
+    font-size: 0.7rem;
+    width: 9.5rem;
+}
+
+.t .title {
+    font-size: 1.2rem;
+    color: #3f3f3f
+}
+
+.t .desc {
+    margin-left: 1rem;
+    font-size: 0.7rem;
+    width: 9.5rem;
+}
+
+.t .lablecolor {
+    color: #6e6e6e
+}
+
+.case-main {
+    min-height: 619px;
+    max-height: 619px;
+    margin-top: 40px;
+    background: url('../css/img/bg.png');
+}
+
+.case-main .title {
+    text-align: center;
+    padding-top: 43px;
+}
+
+.case-main .title .about {
+    color: #fff;
+    font-weight: 600;
+    padding-right: 0.4rem;
+    font-size: 1.4rem;
+}
+
+.case-main .title .us {
+    color: #fab23b;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.case-main .title .hx {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.7rem;
+}
+
+.case-main .title .smtitle {
+    font-size: 0.7rem;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.case-main .title .soldtitle {
+    padding-top: 0.7rem;
+    font-size: 0.7rem;
+    padding-bottom: 0.4rem;
+}
+
+.case-main .title .desc {
+    font-size: 0.7rem;
+    width: 38.5rem;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: lighter
+}
+
+.case-main .caselist {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.case-main .caselist img {
+    width: 223px;
+    height: 135px;
+    opacity: 0.9
+}
+
+.case-main .caselist li {
+    list-style: none;
+    display: inline-block
+}
+
+.more-button {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.more-button .more {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    /* width: 156px; */
+    height: 15px;
+    color: #333;
+    font-size: 12px;
+    background: #fff;
+    display: block;
+    width: 70px;
+    line-height: 1.3;
+    margin: 0 auto;
+}
+
+.news-main .title {
+    text-align: center;
+    padding-top: 43px;
+}
+
+.news-main .title .about {
+    color: #818181;
+    font-weight: 600;
+    padding-right: 0.4rem;
+    font-size: 1.4rem;
+}
+
+.news-main .title .us {
+    color: #4cb8ff;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.news-main .title .hx {
+    color: #929191;
+    font-size: 0.7rem;
+}
+
+.news-main .title .smtitle {
+    font-size: 0.7rem;
+    vertical-align: middle;
+    color: #929191;
+}
+
+.news-main .title .soldtitle {
+    padding-top: 0.7rem;
+    font-size: 0.7rem;
+    padding-bottom: 0.4rem;
+}
+
+.news-main .newslist {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.news-main .newslist li {
+    list-style: none;
+    display: inline-block;
+    padding-bottom: 90px;
+}
+
+.news-main .newslist .newsitem-img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.news-main .newslist .newsitem-content {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+    width: 300px;
+    text-align: left;
+}
+
+.footer {
+    height: 250px;
+    background: #30333a
+}

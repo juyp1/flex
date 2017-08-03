@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/flex.css" />
+    <link rel="stylesheet" type="text/css" href="css/data-flex.css" />
+</head>
+
+<body>
+    <div class="demo" flex="dir:left box:first">
+        <div>1</div>
+        <div>
+            <p>搜索</p>
+            <p>新闻</p>
+        </div>
+
+    </div>
+</body>
+<style>
+    .demo {
+        width: 250px;
+        height: 250px;
+        background: #108423;
+    }
+    
+    .demo div {
+        min-width: 40px;
+        min-height: 40px;
+        background: #f1d722;
+        text-align: center;
+        line-height: 50px;
+        color: #222;
+    }
+    
+    .demo div+div {
+        line-height: 23px;
+        background: #f95656;
+    }
+    
+    .demo div+div+div {
+        line-height: 30px;
+        background: #5fc383;
+    }
+</style>
+
+</html>
